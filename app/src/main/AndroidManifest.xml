@@ -50,7 +50,6 @@
             android:theme="@style/platformSettingsTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- Broadcast receivers -->
         <receiver android:name="com.abifog.lokiboard.latin.SystemBroadcastReceiver">
