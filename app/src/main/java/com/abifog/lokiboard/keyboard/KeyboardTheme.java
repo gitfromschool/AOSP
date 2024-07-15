@@ -98,7 +98,7 @@ public final class KeyboardTheme {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         final String themeIdString = prefs.getString(KEYBOARD_THEME_KEY, null);
         if (themeIdString == null) {
-            return searchKeyboardThemeById(THEME_ID_LIGHT);
+            return searchKeyboardThemeById(THEME_ID_DARK_BORDER);
         }
         try {
             final int themeId = Integer.parseInt(themeIdString);
