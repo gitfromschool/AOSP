@@ -257,7 +257,7 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
         }
 
         // return Color.LTGRAY;
-        return 4280428332;
+        return 2238252;
         // Color.valueOf(0xff22272c);
         // 34, 39, 44);
     }
