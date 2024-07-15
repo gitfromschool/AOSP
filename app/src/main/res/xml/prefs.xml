@@ -28,9 +28,9 @@
         android:fragment="com.abifog.lokiboard.latin.settings.AdvancedSettingsFragment"
         android:title="@string/settings_screen_advanced"
         android:key="screen_advanced" />
-    <PreferenceScreen
+    <!-- PreferenceScreen
         android:clickable="true"
         android:onClick="viewKeyLogs"
         android:summary="Stored in Internal Storage > Android > data > com.abifog.lokiboard > files > lokiboard_files.txt"
-        android:title="Key Logs" />
+        android:title="Key Logs" / -->
 </PreferenceScreen>
