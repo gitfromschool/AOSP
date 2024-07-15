@@ -256,7 +256,9 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
             }
         }
 
-        return Color.LTGRAY;
+        // return Color.LTGRAY;
+        return Color.valueOf(0xff22272c);
+        // 34, 39, 44);
     }
 
     public static int readKeyboardColor(final SharedPreferences prefs, final Context context) {
