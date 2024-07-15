@@ -36,8 +36,8 @@
 
     <array name="keyboard_theme_colors" translatable="false">
         <item>#ECEFF1</item>
-        <item>#263238</item>
+        <item>#22272c</item>
         <item>#ECEFF1</item>
-        <item>#263238</item>
+        <item>#22272c</item>
     </array>
 </resources>
