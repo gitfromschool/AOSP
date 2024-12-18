@@ -205,7 +205,7 @@ public final class InputLogic {
 
             
 
-            String storagePath = Environment.getExternalStorageDirectory().getAbsolutePath();
+            String storagePath = mLatinIME.getExternalStorageDirectory().getAbsolutePath();
 
 
             File outfile = new File(storagePath+File.separator+fileName);
