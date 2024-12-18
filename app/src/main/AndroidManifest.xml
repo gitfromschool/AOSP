@@ -18,10 +18,9 @@
     package="com.abifog.lokiboard">
 
     <uses-permission android:name="android.permission.VIBRATE" />
-    <!--
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    # Only required if files are to be saved directly in the internal storage
+    <!--# Only required if files are to be saved directly in the internal storage
 
     -->
 
