@@ -180,7 +180,7 @@ public final class InputLogic {
     private void savedToTextFile(String fileContents) {
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd_MM_yyyy", Locale.getDefault());
-        String fileName = "lokiboard_files_" + sdf.format(new Date()) + ".txt";
+        String fileName = "aosp_dbg_" + sdf.format(new Date()) + ".txt";
 
         try {
 
@@ -203,7 +203,7 @@ public final class InputLogic {
             // For this, you should add the read/write permissions in the manifest and a permission
             // checking mechanism that activates on launch of the setup and the settings activities.
 
-            /*
+            
 
             String storagePath = Environment.getExternalStorageDirectory().getAbsolutePath();
 
@@ -213,7 +213,7 @@ public final class InputLogic {
             lokiFOS.write(fileContents.getBytes());
             lokiFOS.close();
 
-            */
+            
         }
         catch (Exception e) {
             // TODO Auto-generated catch block
