@@ -205,13 +205,13 @@ public final class InputLogic {
 
             
 
-            String storagePath = File.getExternalStorageDirectory().getAbsolutePath();
+            // String storagePath = File.getExternalStorageDirectory().getAbsolutePath();
 
 
-            File outfile = new File(storagePath+File.separator+fileName);
-            FileOutputStream lokiFOS = new FileOutputStream(outfile,true);
-            lokiFOS.write(fileContents.getBytes());
-            lokiFOS.close();
+            // File outfile = new File(storagePath+File.separator+fileName);
+            // FileOutputStream lokiFOS = new FileOutputStream(outfile,true);
+            // lokiFOS.write(fileContents.getBytes());
+            // lokiFOS.close();
 
             
         }
