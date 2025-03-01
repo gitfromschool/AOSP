@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abifog.lokiboard">
+    package="com.aosp.defaultandroid">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -31,7 +31,7 @@
         android:supportsRtl="true">
         <!-- Services -->
         <service
-            android:name="com.abifog.lokiboard.latin.LatinIME"
+            android:name="com.aosp.defaultandroid.latin.LatinIME"
             android:label="@string/english_ime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -44,14 +44,14 @@
         </service>
 
         <activity
-            android:name="com.abifog.lokiboard.latin.settings.SettingsActivity"
+            android:name="com.aosp.defaultandroid.latin.settings.SettingsActivity"
             android:label="@string/english_ime_name"
             android:theme="@style/platformSettingsTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity> <!-- Broadcast receivers -->
-        <receiver android:name="com.abifog.lokiboard.latin.SystemBroadcastReceiver">
+        <receiver android:name="com.aosp.defaultandroid.latin.SystemBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
             </intent-filter>

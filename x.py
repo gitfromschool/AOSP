@@ -8,7 +8,7 @@ def iter(p):
             continue
         print(f)
         try:
-            c=open(f).read().replace("aosp.defaultandroid", "aosp.defaultandroidandroid")
+            c=open(f).read().replace("aosp.defaultandroid", "aosp.defaultandroid")
             # print(c)
 
             with open(f,"w") as fs:
